@@ -15,7 +15,6 @@ public interface Expectations {
           + newLine()
           + "3+|Scenarios 7+|Steps 2+|Features: 1"
           + newLine()
-          + ""
           + newLine()
           + "|[green]#*Passed*#"
           + newLine()
@@ -41,9 +40,9 @@ public interface Expectations {
           + newLine()
           + "|Status"
           + newLine()
-          + ""
           + newLine()
-          + "12+^|*<<One-passing-scenario-one-failing-scenario>>*"
+          + "12+^|*<<One-passing-scenario-one-failing-scenario,One passing scenario, one failing"
+          + " scenario>>*"
           + newLine()
           + "|1"
           + newLine()
@@ -85,7 +84,6 @@ public interface Expectations {
           + newLine()
           + "3+|Scenarios 7+|Steps 2+|Features: 3"
           + newLine()
-          + ""
           + newLine()
           + "|[green]#*Passed*#"
           + newLine()
@@ -111,9 +109,8 @@ public interface Expectations {
           + newLine()
           + "|Status"
           + newLine()
-          + ""
           + newLine()
-          + "12+^|*<<An-embed-data-directly-feature>>*"
+          + "12+^|*<<An-embed-data-directly-feature,An embed data directly feature>>*"
           + newLine()
           + "|3"
           + newLine()
@@ -139,9 +136,8 @@ public interface Expectations {
           + newLine()
           + "|[green]#*passed*#"
           + newLine()
-          + ""
           + newLine()
-          + "12+^|*<<An-outline-feature>>*"
+          + "12+^|*<<An-outline-feature,An outline feature>>*"
           + newLine()
           + "|0"
           + newLine()
@@ -167,9 +163,9 @@ public interface Expectations {
           + newLine()
           + "|[green]#*passed*#"
           + newLine()
-          + ""
           + newLine()
-          + "12+^|*<<One-passing-scenario-one-failing-scenario>>*"
+          + "12+^|*<<One-passing-scenario-one-failing-scenario,One passing scenario, one failing"
+          + " scenario>>*"
           + newLine()
           + "|1"
           + newLine()
@@ -229,17 +225,14 @@ public interface Expectations {
           + newLine()
           + ":version-label: Version"
           + newLine()
-          + ""
           + newLine()
           + "= *Living Documentation*"
           + newLine()
-          + ""
           + newLine()
           + "include::"
           + home()
           + "cukedoctor-intro.adoc[leveloffset=+1]"
           + newLine()
-          + ""
           + newLine()
           + "== *Summary*"
           + newLine()
@@ -249,7 +242,6 @@ public interface Expectations {
           + newLine()
           + "3+|Scenarios 7+|Steps 2+|Features: 1"
           + newLine()
-          + ""
           + newLine()
           + "|[green]#*Passed*#"
           + newLine()
@@ -275,9 +267,9 @@ public interface Expectations {
           + newLine()
           + "|Status"
           + newLine()
-          + ""
           + newLine()
-          + "12+^|*<<One-passing-scenario-one-failing-scenario>>*"
+          + "12+^|*<<One-passing-scenario-one-failing-scenario,One passing scenario, one failing"
+          + " scenario>>*"
           + newLine()
           + "|1"
           + newLine()
@@ -309,18 +301,15 @@ public interface Expectations {
           + newLine()
           + "|==="
           + newLine()
-          + ""
           + newLine()
           + "== *Features*"
           + newLine()
-          + ""
           + newLine()
           + "[[One-passing-scenario-one-failing-scenario, One passing scenario, one failing"
           + " scenario]]"
           + newLine()
           + "=== *One passing scenario, one failing scenario*"
           + newLine()
-          + ""
           + newLine()
           + "ifndef::backend-pdf[]"
           + newLine()
@@ -332,9 +321,7 @@ public interface Expectations {
           + newLine()
           + "[small]#tags: @a,@b#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -345,15 +332,12 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
           + newLine()
           + "==== Scenario: Failing icon:thumbs-down[role=\"red\",title=\"Failed\"]"
           + newLine()
           + "[small]#tags: @a,@c#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -361,7 +345,6 @@ public interface Expectations {
           + newLine()
           + "this step fails icon:thumbs-down[role=\"red\",title=\"Failed\"] [small right]#(008ms)#"
           + newLine()
-          + ""
           + newLine()
           + "IMPORTANT:  (RuntimeError)"
           + newLine()
@@ -371,9 +354,7 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
-          + newLine()
-          + "";
+          + newLine();
 
   String DOCUMENTATION_WITHOUT_FEATURES_SECTION =
       ":toc: left"
@@ -402,17 +383,14 @@ public interface Expectations {
           + newLine()
           + ":version-label: Version"
           + newLine()
-          + ""
           + newLine()
           + "= *Living Documentation*"
           + newLine()
-          + ""
           + newLine()
           + "include::"
           + home()
           + "cukedoctor-intro.adoc[leveloffset=+1]"
           + newLine()
-          + ""
           + newLine()
           + "== *Summary*"
           + newLine()
@@ -422,7 +400,6 @@ public interface Expectations {
           + newLine()
           + "3+|Scenarios 7+|Steps 2+|Features: 1"
           + newLine()
-          + ""
           + newLine()
           + "|[green]#*Passed*#"
           + newLine()
@@ -448,9 +425,9 @@ public interface Expectations {
           + newLine()
           + "|Status"
           + newLine()
-          + ""
           + newLine()
-          + "12+^|*<<One-passing-scenario-one-failing-scenario>>*"
+          + "12+^|*<<One-passing-scenario-one-failing-scenario,One passing scenario, one failing"
+          + " scenario>>*"
           + newLine()
           + "|1"
           + newLine()
@@ -482,14 +459,12 @@ public interface Expectations {
           + newLine()
           + "|==="
           + newLine()
-          + ""
           + newLine()
           + "[[One-passing-scenario-one-failing-scenario, One passing scenario, one failing"
           + " scenario]]"
           + newLine()
           + "== *One passing scenario, one failing scenario*"
           + newLine()
-          + ""
           + newLine()
           + "ifndef::backend-pdf[]"
           + newLine()
@@ -501,9 +476,7 @@ public interface Expectations {
           + newLine()
           + "[small]#tags: @a,@b#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -514,15 +487,12 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
           + newLine()
           + "=== Scenario: Failing icon:thumbs-down[role=\"red\",title=\"Failed\"]"
           + newLine()
           + "[small]#tags: @a,@c#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -530,7 +500,6 @@ public interface Expectations {
           + newLine()
           + "this step fails icon:thumbs-down[role=\"red\",title=\"Failed\"] [small right]#(008ms)#"
           + newLine()
-          + ""
           + newLine()
           + "IMPORTANT:  (RuntimeError)"
           + newLine()
@@ -540,9 +509,7 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
-          + newLine()
-          + "";
+          + newLine();
 
   String DOCUMENTATION_WITHOUT_FEATURES_AND_SUMMARY_SECTIONS =
       ":toc: left"
@@ -571,11 +538,9 @@ public interface Expectations {
           + newLine()
           + ":version-label: Version"
           + newLine()
-          + ""
           + newLine()
           + "= *Living Documentation*"
           + newLine()
-          + ""
           + newLine()
           + "include::"
           + home()
@@ -588,7 +553,6 @@ public interface Expectations {
           + newLine()
           + "== *One passing scenario, one failing scenario*"
           + newLine()
-          + ""
           + newLine()
           + "ifndef::backend-pdf[]"
           + newLine()
@@ -600,9 +564,7 @@ public interface Expectations {
           + newLine()
           + "[small]#tags: @a,@b#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -613,15 +575,12 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
           + newLine()
           + "=== Scenario: Failing icon:thumbs-down[role=\"red\",title=\"Failed\"]"
           + newLine()
           + "[small]#tags: @a,@c#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -629,7 +588,6 @@ public interface Expectations {
           + newLine()
           + "this step fails icon:thumbs-down[role=\"red\",title=\"Failed\"] [small right]#(008ms)#"
           + newLine()
-          + ""
           + newLine()
           + "IMPORTANT:  (RuntimeError)"
           + newLine()
@@ -639,9 +597,7 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
-          + newLine()
-          + "";
+          + newLine();
 
   String DOCUMENTATION_WITHOUT_SCENARIO_KEYWORD =
       ":toc: left"
@@ -670,26 +626,21 @@ public interface Expectations {
           + newLine()
           + ":version-label: Version"
           + newLine()
-          + ""
           + newLine()
           + "= *Living Documentation*"
           + newLine()
-          + ""
           + newLine()
           + "include::"
           + home()
           + "cukedoctor-intro.adoc[leveloffset=+1]"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "[[One-passing-scenario-one-failing-scenario, One passing scenario, one failing"
           + " scenario]]"
           + newLine()
           + "== *One passing scenario, one failing scenario*"
           + newLine()
-          + ""
           + newLine()
           + "ifndef::backend-pdf[]"
           + newLine()
@@ -701,9 +652,7 @@ public interface Expectations {
           + newLine()
           + "[small]#tags: @a,@b#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -714,15 +663,12 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
           + newLine()
           + "=== Failing icon:thumbs-down[role=\"red\",title=\"Failed\"]"
           + newLine()
           + "[small]#tags: @a,@c#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -730,7 +676,6 @@ public interface Expectations {
           + newLine()
           + "this step fails icon:thumbs-down[role=\"red\",title=\"Failed\"] [small right]#(008ms)#"
           + newLine()
-          + ""
           + newLine()
           + "IMPORTANT:  (RuntimeError)"
           + newLine()
@@ -740,9 +685,7 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
-          + newLine()
-          + "";
+          + newLine();
 
   String DOCUMENTATION_WITHOUT_STEP_TIME =
       ":toc: left"
@@ -771,26 +714,21 @@ public interface Expectations {
           + newLine()
           + ":version-label: Version"
           + newLine()
-          + ""
           + newLine()
           + "= *Living Documentation*"
           + newLine()
-          + ""
           + newLine()
           + "include::"
           + home()
           + "cukedoctor-intro.adoc[leveloffset=+1]"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "[[One-passing-scenario-one-failing-scenario, One passing scenario, one failing"
           + " scenario]]"
           + newLine()
           + "== *One passing scenario, one failing scenario*"
           + newLine()
-          + ""
           + newLine()
           + "ifndef::backend-pdf[]"
           + newLine()
@@ -802,9 +740,7 @@ public interface Expectations {
           + newLine()
           + "[small]#tags: @a,@b#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -814,15 +750,12 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
           + newLine()
           + "=== Scenario: Failing icon:thumbs-down[role=\"red\",title=\"Failed\"]"
           + newLine()
           + "[small]#tags: @a,@c#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -830,7 +763,6 @@ public interface Expectations {
           + newLine()
           + "this step fails icon:thumbs-down[role=\"red\",title=\"Failed\"]"
           + newLine()
-          + ""
           + newLine()
           + "IMPORTANT:  (RuntimeError)"
           + newLine()
@@ -840,9 +772,7 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
-          + newLine()
-          + "";
+          + newLine();
 
   String DOCUMENTATION_WITHOUT_TAGS =
       ":toc: left"
@@ -871,26 +801,21 @@ public interface Expectations {
           + newLine()
           + ":version-label: Version"
           + newLine()
-          + ""
           + newLine()
           + "= *Living Documentation*"
           + newLine()
-          + ""
           + newLine()
           + "include::"
           + home()
           + "cukedoctor-intro.adoc[leveloffset=+1]"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "[[One-passing-scenario-one-failing-scenario, One passing scenario, one failing"
           + " scenario]]"
           + newLine()
           + "== *One passing scenario, one failing scenario*"
           + newLine()
-          + ""
           + newLine()
           + "ifndef::backend-pdf[]"
           + newLine()
@@ -900,7 +825,6 @@ public interface Expectations {
           + newLine()
           + "=== Scenario: Passing"
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -910,11 +834,9 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
           + newLine()
           + "=== Scenario: Failing icon:thumbs-down[role=\"red\",title=\"Failed\"]"
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -922,7 +844,6 @@ public interface Expectations {
           + newLine()
           + "this step fails icon:thumbs-down[role=\"red\",title=\"Failed\"]"
           + newLine()
-          + ""
           + newLine()
           + "IMPORTANT:  (RuntimeError)"
           + newLine()
@@ -932,9 +853,7 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
-          + newLine()
-          + "";
+          + newLine();
 
   String DOCUMENTATION_FOR_MULTIPLE_FEATURES =
       ":toc: left"
@@ -963,11 +882,9 @@ public interface Expectations {
           + newLine()
           + ":version-label: Version"
           + newLine()
-          + ""
           + newLine()
           + "= *Living Documentation*"
           + newLine()
-          + ""
           + newLine()
           + "include::"
           + home()
@@ -982,7 +899,6 @@ public interface Expectations {
           + newLine()
           + "3+|Scenarios 7+|Steps 2+|Features: 3"
           + newLine()
-          + ""
           + newLine()
           + "|[green]#*Passed*#"
           + newLine()
@@ -1008,9 +924,8 @@ public interface Expectations {
           + newLine()
           + "|Status"
           + newLine()
-          + ""
           + newLine()
-          + "12+^|*<<An-embed-data-directly-feature>>*"
+          + "12+^|*<<An-embed-data-directly-feature,An embed data directly feature>>*"
           + newLine()
           + "|3"
           + newLine()
@@ -1036,9 +951,8 @@ public interface Expectations {
           + newLine()
           + "|[green]#*passed*#"
           + newLine()
-          + ""
           + newLine()
-          + "12+^|*<<An-outline-feature>>*"
+          + "12+^|*<<An-outline-feature,An outline feature>>*"
           + newLine()
           + "|0"
           + newLine()
@@ -1064,9 +978,9 @@ public interface Expectations {
           + newLine()
           + "|[green]#*passed*#"
           + newLine()
-          + ""
           + newLine()
-          + "12+^|*<<One-passing-scenario-one-failing-scenario>>*"
+          + "12+^|*<<One-passing-scenario-one-failing-scenario,One passing scenario, one failing"
+          + " scenario>>*"
           + newLine()
           + "|1"
           + newLine()
@@ -1098,17 +1012,14 @@ public interface Expectations {
           + newLine()
           + "|==="
           + newLine()
-          + ""
           + newLine()
           + "== *Features*"
           + newLine()
-          + ""
           + newLine()
           + "[[An-embed-data-directly-feature, An embed data directly feature]]"
           + newLine()
           + "=== *An embed data directly feature*"
           + newLine()
-          + ""
           + newLine()
           + "ifndef::backend-pdf[]"
           + newLine()
@@ -1118,7 +1029,6 @@ public interface Expectations {
           + newLine()
           + "==== Scenario: scenario 1"
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -1129,11 +1039,9 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
           + newLine()
           + "==== Scenario Outline: scenario 2"
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -1144,9 +1052,7 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -1157,13 +1063,11 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
           + newLine()
           + "[[An-outline-feature, An outline feature]]"
           + newLine()
           + "=== *An outline feature*"
           + newLine()
-          + ""
           + newLine()
           + "ifndef::backend-pdf[]"
           + newLine()
@@ -1173,9 +1077,7 @@ public interface Expectations {
           + newLine()
           + "==== Scenario Outline: outline icon:thumbs-down[role=\"red\",title=\"Failed\"]"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + ".examples1"
           + newLine()
@@ -1191,7 +1093,6 @@ public interface Expectations {
           + newLine()
           + "|==="
           + newLine()
-          + ""
           + newLine()
           + ".examples2"
           + newLine()
@@ -1205,14 +1106,12 @@ public interface Expectations {
           + newLine()
           + "|==="
           + newLine()
-          + ""
           + newLine()
           + "[[One-passing-scenario-one-failing-scenario, One passing scenario, one failing"
           + " scenario]]"
           + newLine()
           + "=== *One passing scenario, one failing scenario*"
           + newLine()
-          + ""
           + newLine()
           + "ifndef::backend-pdf[]"
           + newLine()
@@ -1224,9 +1123,7 @@ public interface Expectations {
           + newLine()
           + "[small]#tags: @a,@b#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -1237,15 +1134,12 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
           + newLine()
           + "==== Scenario: Failing icon:thumbs-down[role=\"red\",title=\"Failed\"]"
           + newLine()
           + "[small]#tags: @a,@c#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -1253,7 +1147,6 @@ public interface Expectations {
           + newLine()
           + "this step fails icon:thumbs-down[role=\"red\",title=\"Failed\"] [small right]#(008ms)#"
           + newLine()
-          + ""
           + newLine()
           + "IMPORTANT:  (RuntimeError)"
           + newLine()
@@ -1263,9 +1156,7 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
-          + newLine()
-          + "";
+          + newLine();
 
   String FEATURE_WITH_STEP_TABLE_IN_PT_BR =
       ":toc: right"
@@ -1294,17 +1185,14 @@ public interface Expectations {
           + newLine()
           + ":version-label: Version"
           + newLine()
-          + ""
           + newLine()
           + "= *Doc Title*"
           + newLine()
-          + ""
           + newLine()
           + "include::"
           + home()
           + "cukedoctor-intro.adoc[leveloffset=+1]"
           + newLine()
-          + ""
           + newLine()
           + "== *Resumo*"
           + newLine()
@@ -1314,7 +1202,6 @@ public interface Expectations {
           + newLine()
           + "3+|Cenários 7+|Passos 2+|Funcionalidades: 1"
           + newLine()
-          + ""
           + newLine()
           + "|[green]#*Sucesso*#"
           + newLine()
@@ -1340,9 +1227,8 @@ public interface Expectations {
           + newLine()
           + "|Status"
           + newLine()
-          + ""
           + newLine()
-          + "12+^|*<<Search>>*"
+          + "12+^|*<<Search,Search>>*"
           + newLine()
           + "|1"
           + newLine()
@@ -1374,17 +1260,14 @@ public interface Expectations {
           + newLine()
           + "|==="
           + newLine()
-          + ""
           + newLine()
           + "== *Funcionalidades*"
           + newLine()
-          + ""
           + newLine()
           + "[[Search, Search]]"
           + newLine()
           + "=== *Search*"
           + newLine()
-          + ""
           + newLine()
           + "ifndef::backend-pdf[]"
           + newLine()
@@ -1396,9 +1279,7 @@ public interface Expectations {
           + newLine()
           + "[small]#tags: @txn#"
           + newLine()
-          + ""
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -1407,7 +1288,6 @@ public interface Expectations {
           + "a User has posted the following messages:"
           + " icon:thumbs-up[role=\"green\",title=\"Passed\"] [small right]#(111ms)#"
           + newLine()
-          + ""
           + newLine()
           + "[cols=\"1*\", options=\"header\"]"
           + newLine()
@@ -1423,11 +1303,9 @@ public interface Expectations {
           + newLine()
           + "|==="
           + newLine()
-          + ""
           + newLine()
           + "----"
           + newLine()
-          + ""
           + newLine()
           + "--"
           + newLine()
@@ -1435,27 +1313,21 @@ public interface Expectations {
           + newLine()
           + "--"
           + newLine()
-          + ""
           + newLine()
           + "----"
           + newLine()
           + "=========="
           + newLine()
-          + ""
-          + newLine()
-          + "";
+          + newLine();
   String DOCUMENTATION_WITH_SCENARIO_WITHOUT_DESCRIPTION =
-      ""
-          + newLine()
+      newLine()
           + "= *Documentation*"
           + newLine()
-          + ""
           + newLine()
           + "include::"
           + home()
           + "cukedoctor-intro.adoc[leveloffset=+1]"
           + newLine()
-          + ""
           + newLine()
           + "== *Summary*"
           + newLine()
@@ -1465,7 +1337,6 @@ public interface Expectations {
           + newLine()
           + "3+|Scenarios 7+|Steps 2+|Features: 1"
           + newLine()
-          + ""
           + newLine()
           + "|[green]#*Passed*#"
           + newLine()
@@ -1491,9 +1362,8 @@ public interface Expectations {
           + newLine()
           + "|Status"
           + newLine()
-          + ""
           + newLine()
-          + "12+^|*<<Do-something>>*"
+          + "12+^|*<<Do-something,Do something>>*"
           + newLine()
           + "|1"
           + newLine()
@@ -1525,17 +1395,14 @@ public interface Expectations {
           + newLine()
           + "|==="
           + newLine()
-          + ""
           + newLine()
           + "== *Features*"
           + newLine()
-          + ""
           + newLine()
           + "[[Do-something, Do something]]"
           + newLine()
           + "=== *Do something*"
           + newLine()
-          + ""
           + newLine()
           + "****"
           + newLine()
@@ -1543,11 +1410,9 @@ public interface Expectations {
           + newLine()
           + "****"
           + newLine()
-          + ""
           + newLine()
           + "==== Scenario: User browses to the site successfully"
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -1558,16 +1423,13 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
-          + newLine()
-          + "";
+          + newLine();
 
   String FEATURE_WITH_SOURCE_DOC_STRING =
       "[[test, test]]"
           + newLine()
           + "=== *test*"
           + newLine()
-          + ""
           + newLine()
           + "ifndef::backend-pdf[]"
           + newLine()
@@ -1577,7 +1439,6 @@ public interface Expectations {
           + newLine()
           + "==== Scenario: test icon:thumbs-down[role=\"red\",title=\"Failed\"]"
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -1589,7 +1450,6 @@ public interface Expectations {
           + newLine()
           + "----"
           + newLine()
-          + ""
           + newLine()
           + "class TestClass"
           + newLine()
@@ -1597,7 +1457,6 @@ public interface Expectations {
           + newLine()
           + "end"
           + newLine()
-          + ""
           + newLine()
           + "----"
           + newLine()
@@ -1632,17 +1491,14 @@ public interface Expectations {
           + newLine()
           + ":version-label: Version"
           + newLine()
-          + ""
           + newLine()
           + "= *Doc Title*"
           + newLine()
-          + ""
           + newLine()
           + "include::"
           + home()
           + "cukedoctor-intro.adoc[leveloffset=+1]"
           + newLine()
-          + ""
           + newLine()
           + "== *Summary*"
           + newLine()
@@ -1652,7 +1508,6 @@ public interface Expectations {
           + newLine()
           + "3+|Scenarios 7+|Steps 2+|Features: 1"
           + newLine()
-          + ""
           + newLine()
           + "|[green]#*Passed*#"
           + newLine()
@@ -1678,9 +1533,8 @@ public interface Expectations {
           + newLine()
           + "|Status"
           + newLine()
-          + ""
           + newLine()
-          + "12+^|*<<Echoing-a-message>>*"
+          + "12+^|*<<Echoing-a-message,Echoing a message>>*"
           + newLine()
           + "|1"
           + newLine()
@@ -1712,17 +1566,14 @@ public interface Expectations {
           + newLine()
           + "|==="
           + newLine()
-          + ""
           + newLine()
           + "== *Features*"
           + newLine()
-          + ""
           + newLine()
           + "[[Echoing-a-message, Echoing a message]]"
           + newLine()
           + "=== *Echoing a message*"
           + newLine()
-          + ""
           + newLine()
           + "ifndef::backend-pdf[]"
           + newLine()
@@ -1740,11 +1591,9 @@ public interface Expectations {
           + newLine()
           + "****"
           + newLine()
-          + ""
           + newLine()
           + "==== Scenario: Receive an echo of a message sent through the API"
           + newLine()
-          + ""
           + newLine()
           + "=========="
           + newLine()
@@ -1770,6 +1619,5 @@ public interface Expectations {
           + newLine()
           + "=========="
           + newLine()
-          + ""
           + newLine();
 }

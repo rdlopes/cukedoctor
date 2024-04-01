@@ -88,7 +88,7 @@ Here are some design principles:
 |Duration
 |Status
 
-12+^|*<<Feature1>>*
+12+^|*<<Feature1,Feature1>>*
 |1
 |0
 |1
@@ -102,7 +102,7 @@ Here are some design principles:
 |647ms
 |[green]#*passed*#
 
-12+^|*<<Feature2>>*
+12+^|*<<Feature2,Feature2>>*
 |1
 |0
 |1

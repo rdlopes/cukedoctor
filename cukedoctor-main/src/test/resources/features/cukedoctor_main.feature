@@ -44,7 +44,7 @@ Feature: Cukedoctor Main
 |Duration
 |Status
 
-12+^|*<<One-passing-scenario-one-failing-scenario>>*
+12+^|*<<One-passing-scenario-one-failing-scenario,One passing scenario, one failing scenario>>*
 |1
 |1
 |2
@@ -136,7 +136,7 @@ features/one_passing_one_failing.feature:10:in Given this step fails'
 |Duration
 |Status
 
-12+^|*<<A-feature-with-a-diagram>>*
+12+^|*<<A-feature-with-a-diagram,A feature with a diagram>>*
 |1
 |0
 |1
@@ -150,7 +150,7 @@ features/one_passing_one_failing.feature:10:in Given this step fails'
 |001ms
 |[green]#*passed*#
 
-12+^|*<<An-embed-data-directly-feature>>*
+12+^|*<<An-embed-data-directly-feature,An embed data directly feature>>*
 |3
 |0
 |3
@@ -164,7 +164,7 @@ features/one_passing_one_failing.feature:10:in Given this step fails'
 |000ms
 |[green]#*passed*#
 
-12+^|*<<An-outline-feature>>*
+12+^|*<<An-outline-feature, An outline feature>>*
 |0
 |0
 |0
@@ -178,7 +178,7 @@ features/one_passing_one_failing.feature:10:in Given this step fails'
 |000ms
 |[green]#*passed*#
 
-12+^|*<<One-passing-scenario-one-failing-scenario>>*
+12+^|*<<One-passing-scenario-one-failing-scenario,One passing scenario, one failing scenario>>*
 |1
 |1
 |2
@@ -192,7 +192,7 @@ features/one_passing_one_failing.feature:10:in Given this step fails'
 |010ms
 |[red]#*failed*#
 
-12+^|*<<Sample-test>>*
+12+^|*<<Sample-test,Sample test>>*
 |1
 |1
 |2

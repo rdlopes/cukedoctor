@@ -1,5 +1,6 @@
 package com.github.cukedoctor.renderer;
 
+import static com.github.cukedoctor.util.Assert.*;
 import static com.github.cukedoctor.util.Constants.Markup.bold;
 import static com.github.cukedoctor.util.Constants.Markup.h2;
 import static com.github.cukedoctor.util.Constants.Markup.table;
@@ -94,13 +95,7 @@ public class CukedoctorSummaryRenderer extends AbstractBaseRenderer implements S
     for (Feature feature : features) {
       // TODO convert to AsciidocMarkupBuilder
       docBuilder.append(
-          newLine(),
-          "12+^",
-          tableCol(),
-          "*<<",
-          feature.getName().replace(",", "").replace(" ", "-"),
-          ">>*",
-          newLine());
+          newLine(), "12+^", tableCol(), "*", renderFeatureReferenceId(feature), "*", newLine());
       StepResults stepResults = feature.getStepResults();
       ScenarioResults scenarioResults = feature.getScenarioResults();
 
@@ -160,5 +155,17 @@ public class CukedoctorSummaryRenderer extends AbstractBaseRenderer implements S
             tableCol(),
             Formatter.formatTime(scenarioTotalizationsCache.getTotalDuration()));
     docBuilder.newLine();
+  }
+
+  protected String renderFeatureId(Feature feature) {
+    // Anchor must not have blanks neither commas to work
+    return feature.getName().replace(",", "").replace("'", "-").replace(" ", "-");
+  }
+
+  protected String renderFeatureReferenceId(Feature feature) {
+    if (isNull(feature) || not(hasText(feature.getName()))) {
+      return "";
+    }
+    return "<<" + renderFeatureId(feature) + "," + feature.getName() + ">>";
   }
 }

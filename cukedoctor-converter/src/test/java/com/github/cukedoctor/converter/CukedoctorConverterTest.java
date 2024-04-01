@@ -189,7 +189,9 @@ public class CukedoctorConverterTest {
         .containsOnlyOnce(":doctype: book" + newLine())
         .containsOnlyOnce(":toc: left" + newLine())
         .containsOnlyOnce("= *Living Documentation*" + newLine())
-        .containsOnlyOnce("<<One-passing-scenario-one-failing-scenario>>")
+        .containsOnlyOnce(
+            "<<One-passing-scenario-one-failing-scenario,One passing scenario, one failing"
+                + " scenario>>")
         .containsOnlyOnce("|[red]#*failed*#")
         .contains("|010ms")
         .containsOnlyOnce("|1|1|2|1|1|0|0|0|0|2 2+|010ms");
@@ -224,9 +226,11 @@ public class CukedoctorConverterTest {
         .containsOnlyOnce(":doctype: book" + newLine())
         .containsOnlyOnce(":toc: left" + newLine())
         .contains("= *Living Documentation*" + newLine())
-        .containsOnlyOnce("<<One-passing-scenario-one-failing-scenario>>")
-        .containsOnlyOnce("<<An-embed-data-directly-feature>>")
-        .containsOnlyOnce("<<An-outline-feature>>")
+        .containsOnlyOnce(
+            "<<One-passing-scenario-one-failing-scenario,One passing scenario, one failing"
+                + " scenario>>")
+        .containsOnlyOnce("<<An-embed-data-directly-feature,An embed data directly feature>>")
+        .containsOnlyOnce("<<An-outline-feature,An outline feature>>")
         .doesNotContain("<<invalid-feature-result*>>")
         .contains("|[green]#*passed*#")
         .containsOnlyOnce("|[red]#*failed*#")
@@ -264,7 +268,9 @@ public class CukedoctorConverterTest {
         .containsOnlyOnce(":doctype: book" + newLine())
         .containsOnlyOnce(":toc: left" + newLine())
         .containsOnlyOnce("= *Living Documentation*" + newLine())
-        .containsOnlyOnce("<<One-passing-scenario-one-failing-scenario>>")
+        .containsOnlyOnce(
+            "<<One-passing-scenario-one-failing-scenario,One passing scenario, one failing"
+                + " scenario>>")
         .containsOnlyOnce("|[red]#*failed*#")
         .contains("|010ms")
         .containsOnlyOnce("|1|1|2|1|1|0|0|0|0|2 2+|010ms");
@@ -301,7 +307,9 @@ public class CukedoctorConverterTest {
         .containsOnlyOnce(":doctype: book" + newLine())
         .containsOnlyOnce(":toc: left" + newLine())
         .containsOnlyOnce("= *Living Documentation*" + newLine())
-        .doesNotContain("<<One-passing-scenario-one-failing-scenario>>");
+        .doesNotContain(
+            "<<One-passing-scenario-one-failing-scenario,One passing scenario, one failing"
+                + " scenario>>");
 
     FileUtil.saveFile(
         "target/test-docs/doc_without_features_sect.adoc",
